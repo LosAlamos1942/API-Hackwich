@@ -13,6 +13,7 @@
 		3F06FCD527A9955D00DE5D31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F06FCD427A9955D00DE5D31 /* Preview Assets.xcassets */; };
 		3F06FCE027A9955E00DE5D31 /* API_HackwichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06FCDF27A9955E00DE5D31 /* API_HackwichTests.swift */; };
 		3F06FCEB27A9955E00DE5D31 /* API_HackwichUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06FCEA27A9955E00DE5D31 /* API_HackwichUITests.swift */; };
+		3F06FCF927AAE8E800DE5D31 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06FCF827AAE8E700DE5D31 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3F06FCE627A9955E00DE5D31 /* API HackwichUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API HackwichUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F06FCEA27A9955E00DE5D31 /* API_HackwichUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_HackwichUITests.swift; sourceTree = "<group>"; };
 		3F06FCEC27A9955E00DE5D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F06FCF827AAE8E700DE5D31 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				3F06FCCD27A9955300DE5D31 /* API_HackwichApp.swift */,
 				3F06FCCF27A9955300DE5D31 /* ContentView.swift */,
+				3F06FCF827AAE8E700DE5D31 /* SwiftyJSON.swift */,
 				3F06FCD127A9955D00DE5D31 /* Assets.xcassets */,
 				3F06FCD627A9955D00DE5D31 /* Info.plist */,
 				3F06FCD327A9955D00DE5D31 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F06FCF927AAE8E800DE5D31 /* SwiftyJSON.swift in Sources */,
 				3F06FCD027A9955300DE5D31 /* ContentView.swift in Sources */,
 				3F06FCCE27A9955300DE5D31 /* API_HackwichApp.swift in Sources */,
 			);
